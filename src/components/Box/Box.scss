@@ -1,0 +1,9 @@
+.box {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgb(21, 20, 28) 0%, rgb(29, 29, 48) 83%);
+
+  display: flex;
+  border-radius: 25px;
+  height: 100%;
+  width: 100%;
+}

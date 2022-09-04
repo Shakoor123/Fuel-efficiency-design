@@ -1,0 +1,53 @@
+.leftbar {
+  flex: 1;
+  height: 100%;
+  color: white;
+  .leftbarWrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 90%;
+    .leftbarTop {
+      height: 10%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .leftbarBody {
+      height: 50%;
+      width: 100%;
+      .leftbarList {
+        list-style-type: none;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+        font-size: 15px;
+        .LeftbarListItem {
+          color: gray;
+          display: flex;
+          flex-direction: row;
+          width: 90%;
+          .itemText {
+            margin-left: 15px;
+          }
+        }
+        .selected {
+          color: rgb(69, 69, 181);
+        }
+      }
+    }
+    .leftbarBottom {
+      display: flex;
+      align-items: flex-start;
+      height: 10%;
+      width: 60%;
+      color: rgb(69, 69, 181);
+      .itemText {
+        margin-left: 15px;
+      }
+    }
+  }
+}
