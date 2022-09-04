@@ -1,0 +1,56 @@
+.vehicle {
+  display: flex;
+  background-color: rgb(30, 26, 26);
+  box-shadow: 4px 9px 20px -2px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 4px 9px 20px -2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 4px 9px 20px -2px rgba(0, 0, 0, 0.75);
+  height: 100%;
+  border-radius: 5px;
+  color: gray;
+  margin-top: 20px;
+  .left {
+    flex: 1;
+    padding: 20px;
+    height: 100%;
+    .title {
+      font-size: 14px;
+    }
+    .wrapper {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      font-size: 13px;
+      .topSide {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .boxsmall {
+          background-color: #333;
+          padding: 10px;
+          border-radius: 10px;
+          width: 40%;
+          height: 30px;
+        }
+      }
+      .center {
+        margin-top: 5px;
+        display: flex;
+        background-color: #333;
+        border-radius: 10px;
+        width: 88%;
+        padding: 15px;
+        .wrapper {
+          display: flex;
+        }
+      }
+      .bottom {
+      }
+    }
+  }
+  .right {
+    flex: 2;
+    padding: 20px;
+    .wrapper {
+    }
+  }
+}

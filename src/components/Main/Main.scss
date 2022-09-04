@@ -14,6 +14,39 @@
       display: flex;
       .mainleft {
         flex: 3;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        .mainLeftTop {
+          display: flex;
+          align-self: center;
+          width: 95%;
+          background-color: rgb(30, 26, 26);
+          border-radius: 10px;
+          color: gray;
+          padding: 9px;
+          .mainLeftTopText {
+            color: gray;
+            font-size: 17px;
+            margin-left: 10px;
+            width: 100%;
+            border: none;
+            outline: none;
+            background-color: rgb(30, 26, 26);
+          }
+        }
+        .mainLeftCenter {
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+          margin-top: 30px;
+        }
+        .mainLeftBottom {
+          padding: 15px;
+          .summery {
+            color: white;
+          }
+        }
       }
       .mainRight {
         flex: 1;

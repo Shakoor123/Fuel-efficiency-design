@@ -1,0 +1,38 @@
+.widget {
+  display: flex;
+  background-color: rgb(30, 26, 26);
+  width: 30%;
+  color: gray;
+  border-radius: 10px;
+  box-shadow: 4px 9px 20px -2px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 4px 9px 20px -2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 4px 9px 20px -2px rgba(0, 0, 0, 0.75);
+  .wrapper {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    .left {
+      display: flex;
+      flex-direction: column;
+      width: 60px;
+      .iconBox {
+        background-color: #ec510f;
+        color: gray;
+
+        width: 30px;
+        height: 30px;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .value {
+        color: aliceblue;
+        margin-top: 10px;
+      }
+      .text {
+        font-size: 10px;
+      }
+    }
+  }
+}
