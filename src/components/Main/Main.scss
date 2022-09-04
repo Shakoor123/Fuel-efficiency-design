@@ -1,3 +1,23 @@
 .main {
   flex: 6;
+  display: flex;
+  width: 100%;
+  .mainWrapper {
+    padding: 30px;
+    width: 100%;
+    display: flex;
+    .mainContent {
+      background-color: rgb(60, 64, 68);
+      width: 100%;
+      height: 100%;
+      border-radius: 15px;
+      display: flex;
+      .mainleft {
+        flex: 3;
+      }
+      .mainRight {
+        flex: 1;
+      }
+    }
+  }
 }
