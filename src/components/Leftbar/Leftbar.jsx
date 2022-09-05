@@ -8,12 +8,13 @@ import SettingsRoundedIcon from "@mui/icons-material/SettingsRounded";
 import CalendarMonthSharpIcon from "@mui/icons-material/CalendarMonthSharp";
 import LocalPhoneSharpIcon from "@mui/icons-material/LocalPhoneSharp";
 import LogoutSharpIcon from "@mui/icons-material/LogoutSharp";
+import fuel from "../../assets/fuel.png";
 function Leftbar() {
   return (
     <div className="leftbar">
       <div className="leftbarWrapper">
         <div className="leftbarTop">
-          <img src="" alt="Logo" className="leftbarLogo" />
+          <img src={fuel} alt="Logo" className="leftbarLogo" />
         </div>
         <div className="leftbarBody">
           <ul className="leftbarList">

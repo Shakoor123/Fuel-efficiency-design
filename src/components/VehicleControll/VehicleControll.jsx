@@ -1,5 +1,6 @@
 import React from "react";
 import "./VehicleControll.scss";
+import CircularProgressbar from "../CicularProgressBar/CicularProgressBar";
 import AccessAlarmsIcon from "@mui/icons-material/AccessAlarms";
 import ReportProblemIcon from "@mui/icons-material/ReportProblem";
 import SpeedOutlinedIcon from "@mui/icons-material/SpeedOutlined";
@@ -29,8 +30,14 @@ const VehicleControll = () => {
           </div>
           <div className="center">
             <div className="wrappers">
-              <p className="item">circle</p>
-              <p className="item">circle</p>
+              <p className="item">
+                <CircularProgressbar percentage={70} />
+                <span className="itemtext"> Efficency</span>
+              </p>
+              <p className="item">
+                <CircularProgressbar percentage={50} />
+                <span className="itemtext"> economy</span>
+              </p>
             </div>
           </div>
           <div className="bottom">

@@ -40,7 +40,7 @@
         display: flex;
         background-color: #333;
         border-radius: 10px;
-        padding: 15px;
+        height: 90px;
         .wrappers {
           width: 100%;
           gap: 50px;
@@ -48,6 +48,22 @@
           flex-direction: row;
           align-items: center;
           justify-content: center;
+          .item {
+            position: relative;
+            .itemValue {
+              position: absolute;
+              top: 9px;
+              right: 12px;
+            }
+            .itemtext {
+              position: absolute;
+              top: 40px;
+              background-color: #333;
+              right: 1px;
+              text-align: center;
+              font-size: 12px;
+            }
+          }
         }
       }
       .bottom {
