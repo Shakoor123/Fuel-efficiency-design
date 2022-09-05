@@ -1,0 +1,16 @@
+.mul {
+  .rows {
+    display: flex;
+    flex-direction: column;
+    height: 270px;
+    .row {
+      height: 50%;
+      border-top: 1px solid black;
+      border-bottom: 1px solid black;
+
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+    }
+  }
+}

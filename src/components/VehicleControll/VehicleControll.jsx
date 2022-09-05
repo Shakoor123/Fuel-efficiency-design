@@ -5,6 +5,7 @@ import AccessAlarmsIcon from "@mui/icons-material/AccessAlarms";
 import ReportProblemIcon from "@mui/icons-material/ReportProblem";
 import SpeedOutlinedIcon from "@mui/icons-material/SpeedOutlined";
 import Switch from "@mui/material/Switch";
+import MultiCircles from "../MultiCircles/MultiCircles";
 const VehicleControll = () => {
   return (
     <div className="vehicle">
@@ -54,7 +55,9 @@ const VehicleControll = () => {
         </div>
       </div>
       <div className="right">
-        <div className="wrapper">graph setup</div>
+        <div className="wrapper">
+          <MultiCircles />
+        </div>
       </div>
     </div>
   );
