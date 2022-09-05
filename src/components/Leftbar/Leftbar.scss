@@ -29,6 +29,7 @@
           color: gray;
           display: flex;
           flex-direction: row;
+          cursor: pointer;
           width: 90%;
           .itemText {
             margin-left: 15px;
@@ -36,6 +37,7 @@
         }
         .selected {
           color: rgb(69, 69, 181);
+          background-color: rgba(51, 51, 51, 0.203);
         }
       }
     }

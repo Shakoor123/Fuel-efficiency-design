@@ -3,6 +3,7 @@ import "./Main.scss";
 import SearchSharpIcon from "@mui/icons-material/SearchSharp";
 import Widget from "../Widget/Widget";
 import VehicleControll from "../VehicleControll/VehicleControll";
+import Rightbar from "../Rightbar/Rightbar";
 function Main() {
   const datas = [
     {
@@ -48,7 +49,9 @@ function Main() {
               <VehicleControll />
             </div>
           </div>
-          <div className="mainRight">r</div>
+          <div className="mainRight">
+            <Rightbar />
+          </div>
         </div>
       </div>
     </div>

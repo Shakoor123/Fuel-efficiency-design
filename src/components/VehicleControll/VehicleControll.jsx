@@ -28,9 +28,9 @@ const VehicleControll = () => {
             </div>
           </div>
           <div className="center">
-            <div className="wrapper">
-              <span>circle</span>
-              <span>circle</span>
+            <div className="wrappers">
+              <p className="item">circle</p>
+              <p className="item">circle</p>
             </div>
           </div>
           <div className="bottom">

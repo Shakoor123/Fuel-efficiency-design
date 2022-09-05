@@ -1,0 +1,168 @@
+.rightbar {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  .wrapper {
+    padding: 20px;
+
+    .rtop {
+      display: flex;
+      align-items: center;
+      background-color: rgb(30, 26, 26);
+      border-radius: 10px;
+      color: rgb(209, 202, 202);
+      padding: 5px;
+      height: 35px;
+      justify-content: space-around;
+      .iconContainer {
+        width: 20px;
+        height: 20px;
+        background-color: #333;
+        padding: 5px;
+        border-radius: 5px;
+      }
+      .avathar {
+        height: 30px;
+        width: 30px;
+        border-radius: 5px;
+      }
+      .userData {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        padding: 5px;
+        .name {
+          font-size: 12px;
+          color: lightgray;
+        }
+        .role {
+          font-size: 10px;
+          color: gray;
+        }
+      }
+    }
+  }
+  .rbottom {
+    margin-top: 30px;
+    .rbottomTop {
+      display: flex;
+
+      align-items: center;
+      box-shadow: -3px -3px 21px 3px rgba(0, 0, 0, 0.75);
+      -webkit-box-shadow: -3px -3px 21px 3px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: -3px -3px 21px 3px rgba(0, 0, 0, 0.75);
+      justify-content: space-around;
+      padding: 8px;
+      border-radius: 10px 10px 0px 0px;
+      .light {
+        font-size: 15px;
+        color: rgb(212, 205, 205);
+      }
+      .dark {
+        font-size: 12px;
+        color: gray;
+      }
+    }
+    .rbottomBottom {
+      margin-top: 5px;
+      color: gray;
+      box-shadow: -3px -3px 21px 3px rgba(0, 0, 0, 0.75);
+      -webkit-box-shadow: -3px -3px 21px 3px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: -3px -3px 21px 3px rgba(0, 0, 0, 0.75);
+      padding: 10px;
+      border-radius: 0px 0px 10px 10px;
+
+      .rbWrapper {
+        display: flex;
+        flex-direction: column;
+        .carinfo {
+          display: flex;
+          flex-direction: column;
+          height: 35px;
+          .no {
+            font-size: 15px;
+            font-weight: bold;
+            color: rgb(216, 206, 206);
+          }
+          .name {
+            font-size: 11px;
+          }
+        }
+        .cartImage {
+          margin-top: 10px;
+          border-radius: 10px;
+          height: 100px;
+        }
+        .carDetails {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          font-size: 13px;
+          .item {
+            display: flex;
+            flex-direction: column;
+            .item2 {
+              color: aliceblue;
+            }
+          }
+        }
+      }
+      .truckDetails {
+        margin-top: 20px;
+        font-size: 12px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        padding: 10px;
+        background-color: rgb(31, 28, 28);
+        border-radius: 10px;
+        .icon {
+          height: 24px;
+          width: 24px;
+          background-color: blue;
+          border-radius: 50%;
+          padding: 5px;
+          position: absolute;
+          top: -20px;
+        }
+        .dlist {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+        }
+      }
+      .customerDetails {
+        display: flex;
+        padding: 10px;
+        height: 30px;
+        justify-content: space-between;
+        .cImage {
+          height: 30px;
+          width: 30px;
+          border-radius: 5px;
+          align-self: center;
+        }
+        .cdetails {
+          display: flex;
+          flex-direction: column;
+          font-size: 12px;
+          .name {
+            color: aliceblue;
+            font-size: 14px;
+          }
+        }
+        .trips {
+          font-size: 12px;
+        }
+      }
+      .button {
+        padding: 8px;
+        margin-top: 8px;
+        background-color: rgb(27, 102, 194);
+        color: white;
+        border-radius: 5px;
+        border: none;
+      }
+    }
+  }
+}
