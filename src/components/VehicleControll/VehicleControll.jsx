@@ -32,8 +32,8 @@ const VehicleControll = () => {
           <div className="center">
             <div className="wrappers">
               <p className="item">
-                <CircularProgressbar percentage={70} />
-                <span className="itemtext"> Efficency</span>
+                <CircularProgressbar percentage={70} color={"#4656"} />
+                <span className="itemtext">Efficency</span>
               </p>
               <p className="item">
                 <CircularProgressbar percentage={50} />

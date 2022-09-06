@@ -8,22 +8,26 @@ const MultiCircles = () => {
         <div className="row">
           <div className="colum leftBorder">
             <div className="circle">
-              <CicularProgressBar />
+              Reserve
+              <CicularProgressBar percentage={7} color={"blue"} />
             </div>
           </div>
           <div className="colum leftBorder">
             <div className="circle">
-              <CicularProgressBar />
+              Gear 1
+              <CicularProgressBar percentage={16} color={"blue"} />
             </div>
           </div>
           <div className="colum leftBorder">
             <div className="circle">
-              <CicularProgressBar />
+              Gear 3
+              <CicularProgressBar percentage={10} color={"blue"} />
             </div>
           </div>
           <div className="colum leftBorder">
             <div className="circle">
-              <CicularProgressBar />
+              Gear 5
+              <CicularProgressBar percentage={16} color={"blue"} />
             </div>
           </div>
         </div>
@@ -32,7 +36,7 @@ const MultiCircles = () => {
           <div className="colum topBorder leftBorder"></div>
           <div className="colum topBorder leftBorder">
             <div className="circle">
-              <CicularProgressBar />
+              <CicularProgressBar percentage={7} color={"blue"} />
             </div>
           </div>
           <div className="colum leftBorder"></div>
@@ -41,17 +45,20 @@ const MultiCircles = () => {
           <div className="colum"></div>
           <div className="colum ">
             <div className="circle">
-              <CicularProgressBar />
+              <CicularProgressBar percentage={18} color={"blue"} />
+              Gear 2
             </div>
           </div>
           <div className="colum ">
             <div className="circle">
-              <CicularProgressBar />
+              <CicularProgressBar percentage={12} color={"blue"} />
+              Gear 4
             </div>
           </div>
           <div className="colum">
             <div className="circle">
-              <CicularProgressBar />
+              <CicularProgressBar percentage={8} color={"blue"} />
+              Gear 6
             </div>
           </div>
         </div>

@@ -1,5 +1,5 @@
 import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
-const CicularProgressBar = ({ percentage }) => {
+const CicularProgressBar = ({ percentage, color }) => {
   return (
     <div style={{ width: "45px", height: "45px" }}>
       <CircularProgressbar
@@ -22,10 +22,10 @@ const CicularProgressBar = ({ percentage }) => {
           // pathTransition: 'none',
 
           // Colors
-          pathColor: `rgba(2, 2, 9, ${percentage / 100})`,
-          textColor: "gray",
-          trailColor: "white",
-          backgroundColor: "#333",
+          pathColor: "gray",
+          textColor: "white",
+          trailColor: color,
+          backgroundColor: "yellow",
         })}
       />
     </div>
