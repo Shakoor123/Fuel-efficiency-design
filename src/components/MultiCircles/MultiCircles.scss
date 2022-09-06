@@ -4,13 +4,36 @@
     flex-direction: column;
     height: 270px;
     .row {
-      height: 50%;
-      border-top: 1px solid black;
-      border-bottom: 1px solid black;
-
+      height: 33%;
+      padding: 50px 0 0 50px;
+      position: relative;
       display: flex;
       align-items: flex-start;
       justify-content: space-between;
+
+      .colum {
+        display: flex;
+        padding-top: 40px;
+
+        align-items: center;
+        width: 25%;
+        height: 130%;
+
+        position: relative;
+        .circle {
+          position: absolute;
+
+          top: -25px;
+          left: -24px;
+          background-color: rgb(30, 26, 26);
+        }
+      }
+      .topBorder {
+        border-top: 1px solid white;
+      }
+      .leftBorder {
+        border-left: 1px solid white;
+      }
     }
   }
 }
